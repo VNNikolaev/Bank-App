@@ -13,6 +13,8 @@
 		FF2FA84225594770009541BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2FA84025594770009541BB /* Main.storyboard */; };
 		FF2FA84425594772009541BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2FA84325594772009541BB /* Assets.xcassets */; };
 		FF2FA84725594772009541BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2FA84525594772009541BB /* LaunchScreen.storyboard */; };
+		FF2FA8C0255AB42A009541BB /* ExelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FA8BF255AB42A009541BB /* ExelFormulas.swift */; };
+		FF2FA8C3255AB6A9009541BB /* Double + asCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FA8C2255AB6A9009541BB /* Double + asCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FF2FA84325594772009541BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF2FA84625594772009541BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF2FA84825594772009541BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2FA8BF255AB42A009541BB /* ExelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExelFormulas.swift; sourceTree = "<group>"; };
+		FF2FA8C2255AB6A9009541BB /* Double + asCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + asCurrency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FF2FA83A25594770009541BB /* AppDelegate.swift */,
 				FF2FA83C25594770009541BB /* SceneDelegate.swift */,
 				FF2FA83E25594770009541BB /* ViewController.swift */,
+				FF2FA8BF255AB42A009541BB /* ExelFormulas.swift */,
+				FF2FA8C2255AB6A9009541BB /* Double + asCurrency.swift */,
 				FF2FA84025594770009541BB /* Main.storyboard */,
 				FF2FA84325594772009541BB /* Assets.xcassets */,
 				FF2FA84525594772009541BB /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2FA8C0255AB42A009541BB /* ExelFormulas.swift in Sources */,
 				FF2FA83F25594770009541BB /* ViewController.swift in Sources */,
+				FF2FA8C3255AB6A9009541BB /* Double + asCurrency.swift in Sources */,
 				FF2FA83B25594770009541BB /* AppDelegate.swift in Sources */,
 				FF2FA83D25594770009541BB /* SceneDelegate.swift in Sources */,
 			);
