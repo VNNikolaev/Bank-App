@@ -38,6 +38,9 @@
                             <constraint firstItem="dsr-g2-jNT" firstAttribute="top" secondItem="BNa-hp-Bpr" secondAttribute="bottom" constant="25" id="VPm-Tp-DMl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amountLabel" destination="dsr-g2-jNT" id="tdc-VI-nmr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
